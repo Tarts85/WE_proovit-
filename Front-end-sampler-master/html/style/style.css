@@ -1,0 +1,187 @@
+body {
+	background: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+
+/*Global*/
+
+.container {
+	width: 95%;
+	margin: 2.75% auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Header*/
+
+.navbar-container {
+	margin: 3% 3% 0 2.5%;
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	background: #ffffff;
+	background-size: 100% 100%;
+	border-radius: 6px;
+	min-height: 80px;
+	float: left;
+}
+
+#logo {
+	max-height: 80px;
+}
+
+ul li:first-child {
+	padding: 0;
+}
+
+ul li {
+	align-items: stretch;
+	align-self: center;
+	padding: 30px;
+	border-right: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+ul li a:hover {
+	color: #aa15e4;
+}
+
+.dropdown-hidden {
+	display: none;
+}
+
+/*Showcase*/
+
+#showcase {
+	margin-top: 0;
+	background: url("../images/base/fox_image.jpg") no-repeat;
+	width: 100%;
+	min-height: 750px;
+	background-size: 100% 100%;
+}
+
+.showcase-text {
+	float: left;
+	max-width: 40%;
+	margin: 9% 0 5% 9%;
+}
+
+.showcase-text h1 {
+	text-transform: uppercase;
+	font-size: 4em;
+	color: #ffffff;
+}
+
+.showcase-text p {
+	margin-top: 4%;
+	color: #ffffff;
+	font-size: 1em;
+	line-height: 1.5;
+	max-width: 90%;
+}
+
+#lilac-text {
+	color: #aa15e4;
+	display: block;
+}
+
+label {
+	display: flex;
+	justify-content: flex-start;
+	max-width: 70%;
+	padding-top: 4%;
+}
+
+.btn-1 {
+	margin-right: 2%;
+	border: none;
+	background: #aa15e4;
+	color: #ffffff;
+	border-radius: 5px;
+	min-height: 60px;
+	min-width: 250px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.btn-2 {
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	min-height: 60px;
+	min-width: 150px;
+	background-color: transparent;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*Video, social and product containers*/
+
+#boxes {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+/*Google maps*/
+
+
+/*Footer*/
+
+footer .container {
+	display: flex;
+	background-color: yellow;
+	width: 100%
+	min-height: 250px;
+	background: linear-gradient(#151231, #55348d);
+	background-size: 100% 100%;
+	color: #ffffff;
+}
+
+address {
+	margin: 2% auto;
+}
+
+#post {
+	margin: 10% auto;
+	display: block;
+	text-align: center;
+	max-width: 220px;
+}
+
+#phone {
+	margin: 10% auto;
+	display: block;
+	text-align: center;
+	max-width: 220px;
+}
+
+#email {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	max-width: 280px;
+}
+
+#copyright {
+	margin: 15% auto 2% auto;
+	display: block;
+	text-align: center;
+	max-width: 220px;
+	font-size: 0.5em;
+	opacity: 0.3;
+}
